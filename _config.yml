@@ -16,9 +16,7 @@
 title: Benjamin D. Unger 
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Site made with Jekyll  where I hope to post thoughts, photos, projects.... 
-  What most folks would call a blog.
-  Hosted on github!
+  Random thoughts and stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

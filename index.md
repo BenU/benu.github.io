@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Benjamin D. Unger -- Home
+title: Benjamin D. Unger
 ---
-Hello, world!
+Welcome to my site.  I hope to add more content soon.
