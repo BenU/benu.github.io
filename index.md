@@ -6,3 +6,5 @@ layout: home
 title: Benjamin D. Unger
 ---
 Welcome to my site.  I hope to add more content soon.
+In the mean time, below is a picture of my cat enjoying the sunrise.
+![Cat looking out window](/assets/img/catatwindow.jpeg)
