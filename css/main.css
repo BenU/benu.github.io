@@ -1,0 +1,47 @@
+/* GLOBAL STYLES */
+body {
+  font-family: helvetica, arial, sans;
+}
+h1 {
+  font-size: 7vw;
+  margin-top: 0;
+}
+a {
+  color: #00f;
+}
+
+/* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;  
+  height:   50vh;
+}
+
+/* SOCIAL STYLES */
+.social-link {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius:  99px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: helvetica, areal, sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-alighn: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
