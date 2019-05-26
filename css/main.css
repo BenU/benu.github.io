@@ -16,7 +16,10 @@ a:active {
 /* HEADER STYLES */
 .header {
   background-color: #000;
-  color: #fff
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 }
 .header-logo {
   background-color: #000;
@@ -26,18 +29,22 @@ a:active {
   padding-top: 10px;
   position: relative;
   text-align: center;
-  width: 20vh;
+  width: 25vh;
 }
 .header-logo:hover,
 .header-logo:active {
-  background-color: #ed6e2f;
+  background-color: #FFEB8E;
 }
 .header-logo img {
-  width: 25vh;
+  width: 23vh;
 }
-  
+.header-logo img:hover,
+.header-logo img:active {
+  opacity: 0.8; 
+}
+
 .header-nav {
-  float: right;
+  float: right; 
   padding: 5.5vh 60px 0 0;
 }
 .header-nav > li {
@@ -73,6 +80,7 @@ a:active {
   background-color: #c7dbfc;  
   height:   50vh;
 }
+
 
 /* SOCIAL STYLES */
 .social-link {
