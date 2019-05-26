@@ -22,6 +22,11 @@ a:active {
   display: inline-block;
   margin-left: 1em;
 }
+/* applies to every header li after the 1st one */
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1em;
+}
 .header-nav a {
   color: #000;
   font-size: 0.8rem;
@@ -96,12 +101,18 @@ h2 + p {
 
 /* IMAGE STYLES */
 .image-home {
-  height: 300px;
+  border: brown solid 10px;
+  border-radius: 10px;
+  box-sizing:   border-box;
+/*  height: 300px; */
   margin: 2em;
+  overflow: hidden;
   width:  300px;
 }
 .image-home img {
-  border: brown solid 10px;
   height: auto;
   width: 100%;
+}
+.image-home p {
+    text-align: left;
 }
