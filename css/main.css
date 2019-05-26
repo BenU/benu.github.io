@@ -104,8 +104,7 @@ h2 + p {
   border: brown solid 10px;
   border-radius: 10px;
   box-sizing:   border-box;
-/*  height: 300px; */
-  margin: 2em;
+  margin: 2em auto;
   overflow: hidden;
   width:  300px;
 }
