@@ -14,6 +14,28 @@ a:active {
   color: #bf9bff;
 }
 /* HEADER STYLES */
+.header {
+  background-color: #000;
+  color: #fff
+}
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 20vh;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 20vh;
+}
+.header-logo:hover,
+.header-logo:active {
+  background-color: #ed6e2f;
+}
+.header-logo img {
+  width: 25vh;
+}
+  
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -24,30 +46,26 @@ a:active {
 }
 /* applies to every header li after the 1st one */
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
 .header-nav a {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
-  text-transform: upppercase;
+  text-transform: uppercase;
 }
 
 .header-nav a:hover,
 .header-nav a:active {
   color: #db3f3f;
 }
-.header-logo:hover,
-.header-logo:active {
-  opacity: 0.5;
-}
 .header-nav > li:first-child a {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-  color: #3dad2e;
+  color: #fff;
 }
 
 /* HERO STYLES */
