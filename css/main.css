@@ -2,9 +2,25 @@
 body {
   font-family: helvetica, arial, sans;
 }
+/* TEXT STYLES */
+
+h2 + p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
+}
+h3 {
+  font-size: 2.5em;
+  font-family: helvetica, areal, sans;
+  font-weight: bold;
+  
 }
 a {
   color: #00f;
@@ -75,13 +91,73 @@ a:active {
   color: #fff;
 }
 
+/* FOOTER STYLES */
+.footer {
+  background-color: #000;
+  bottom: 0;
+  color: #fff;
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+.footer-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
+  #position: relative;
+  text-align: center;
+  width: 25vh;
+  z-index: 22;
+}
+.footer-logo:hover,
+.footer-logo:active {
+  background-color: #FFEB8E;
+}
+.footer-logo img {
+  width: 23vh;
+}
+.footer-logo img:hover,
+.footer-logo img:active {
+  opacity: 0.8; 
+}
+.footer h3 {
+  float: right;
+  font-size: 1.6em;
+  z-index: 18;
+}
+/*.footer-logo {*/
+/*  width: 10em;*/
+/*  height: 10em;*/
+/*}*/
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;  
   height:   50vh;
 }
-
-
+/* CATEGORY STYLES */
+.category-wrapper {
+  font-size: 1.5rem;
+}
+.category-box {
+  border: 1px solid black;
+  font-size: 1em;
+  padding: 20px;
+  width: 50%;
+}
+.category-box h3 {
+  font-size: 1.5em;
+}
+.category-copy {
+  font-size: 0.7em; 
+  padding-top: 1em;
+}
+.category-copy a {
+  color: green;
+}
 /* SOCIAL STYLES */
 .social-link {
   background: rgba(150, 150, 150, 0.5);
@@ -95,7 +171,7 @@ a:active {
   height: 2.5em;
   line-height: 1;
   padding-top: 0.85em;
-  text-alighn: center;
+  text-align: center;
   text-decoration: none;
   vertical-align: middle;
   width: 2.5em;
@@ -114,24 +190,24 @@ a:active {
   display: inline-block;
   margin: 0 0.5em;
 }
-
-/* TEXT STYLES */
-
-h2 + p {
-  font-size: 0.8em;
-  font-style: italic;
-  margin: 1em auto 0;
-  max-width: 70%;
-  text-align: center;
+.home-base {
+  position: relative;
+}
+.home-base p {
+  padding: 1em;
+  margin-bottom: 5em;
 }
 
 /* IMAGE STYLES */
 .image-home {
   border: brown solid 10px;
   border-radius: 10px;
+  bottom: 10vh;
   box-sizing:   border-box;
+  display: block;
   margin: 2em auto;
   overflow: hidden;
+  position: relative;
   width:  300px;
 }
 .image-home img {
@@ -140,4 +216,7 @@ h2 + p {
 }
 .image-home p {
     text-align: left;
+    padding: 0;
+    margin-bottom: 0;
 }
+
